@@ -1,0 +1,316 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "OP482" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "N" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "Value" "OP482" (id 1) (at 0.0 -1.74625 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "MF" "Analog Devices" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            J-FET Amplifier 4 Circuit - 14-SOIC\n                        \n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "SOIC-14 Analog Devices" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/OP482/Analog+Devices/view-part/?ref=eda" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "VALUE" "OP482" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/OP482/Analog+Devices/view-part/?ref=snap" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "OP482" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SPICE" "<gate:A>\\n  <name:X> <pin:A.IN+> <pin:A.IN-> <pin:P.V+> <pin:P.V-> <pin:A.OUT> <subckt:OP482 OP482G>\\n\\n<gate:B>\\n  <name:X> <pin:B.IN+> <pin:B.IN-> <pin:P.V+> <pin:P.V-> <pin:B.OUT> <subckt:OP482 OP482G>\\n\\n<gate:C>\\n  <name:X> <pin:C.IN+> <pin:C.IN-> <pin:P.V+> <pin:P.V-> <pin:C.OUT> <subckt:OP482 OP482G>\\n\\n<gate:D>\\n  <name:X> <pin:D.IN+> <pin:D.IN-> <pin:P.V+> <pin:P.V-> <pin:D.OUT> <subckt:OP482 OP482G>\\n\\n<gate:P>\\n  <ignore>" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "OP482_1_0"
+      (polyline
+        (pts (xy 0.0 2.54) (xy 0.0 2.2225)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -2.54) (xy 0.0 -2.2225)) (stroke (width 0.1524))
+      )
+      (circle (center 1.34937 -3.81) (radius 0.9525)
+        (stroke (width 0.127)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 1.34937 -4.28625) (xy 1.34937 -3.33375)) (stroke (width 0.127))
+      )
+      (circle (center 1.34937 3.81) (radius 0.9525)
+        (stroke (width 0.127)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 1.34937 3.33375) (xy 1.34937 4.28625)) (stroke (width 0.127))
+      )
+      (polyline
+        (pts (xy 0.873125 3.81) (xy 1.82563 3.81)) (stroke (width 0.127))
+      )
+      (pin power_in line (at 0.0 5.08 270.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 0.0 -5.08 90.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "OP482_2_0"
+      (polyline
+        (pts (xy -3.81 4.445) (xy -3.81 2.54)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy -3.81 2.54) (xy -3.81 -2.54)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy -3.81 -2.54) (xy -3.81 -4.445)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy -3.81 -4.445) (xy 3.81 0.0)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy 3.81 0.0) (xy -3.81 4.445)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy 3.81 0.0) (xy 5.08 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.81 2.54) (xy -5.08 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -5.08 -2.54) (xy -3.81 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.1749 -2.54) (xy -2.2224 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.6986 -3.0162) (xy -2.6986 -2.0637)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.1749 2.54) (xy -2.2224 2.54)) (stroke (width 0.1524))
+      )
+      (pin input line (at -7.62 -2.54 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -7.62 2.54 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 7.62 0.0 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "OP482_3_0"
+      (polyline
+        (pts (xy -3.81 4.445) (xy -3.81 2.54)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy -3.81 2.54) (xy -3.81 -2.54)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy -3.81 -2.54) (xy -3.81 -4.445)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy -3.81 -4.445) (xy 3.81 0.0)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy 3.81 0.0) (xy -3.81 4.445)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy 3.81 0.0) (xy 5.08 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.81 2.54) (xy -5.08 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -5.08 -2.54) (xy -3.81 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.1749 -2.54) (xy -2.2224 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.6986 -3.0162) (xy -2.6986 -2.0637)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.1749 2.54) (xy -2.2224 2.54)) (stroke (width 0.1524))
+      )
+      (pin input line (at -7.62 -2.54 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -7.62 2.54 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 7.62 0.0 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "OP482_4_0"
+      (polyline
+        (pts (xy -3.81 4.445) (xy -3.81 2.54)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy -3.81 2.54) (xy -3.81 -2.54)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy -3.81 -2.54) (xy -3.81 -4.445)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy -3.81 -4.445) (xy 3.81 0.0)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy 3.81 0.0) (xy -3.81 4.445)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy 3.81 0.0) (xy 5.08 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.81 2.54) (xy -5.08 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -5.08 -2.54) (xy -3.81 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.1749 -2.54) (xy -2.2224 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.6986 -3.0162) (xy -2.6986 -2.0637)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.1749 2.54) (xy -2.2224 2.54)) (stroke (width 0.1524))
+      )
+      (pin input line (at -7.62 -2.54 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -7.62 2.54 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 7.62 0.0 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "OP482_5_0"
+      (polyline
+        (pts (xy -3.81 4.445) (xy -3.81 2.54)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy -3.81 2.54) (xy -3.81 -2.54)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy -3.81 -2.54) (xy -3.81 -4.445)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy -3.81 -4.445) (xy 3.81 0.0)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy 3.81 0.0) (xy -3.81 4.445)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy 3.81 0.0) (xy 5.08 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.81 2.54) (xy -5.08 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -5.08 -2.54) (xy -3.81 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.1749 -2.54) (xy -2.2224 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -2.6986 -3.0162) (xy -2.6986 -2.0637)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.1749 2.54) (xy -2.2224 2.54)) (stroke (width 0.1524))
+      )
+      (pin input line (at -7.62 -2.54 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -7.62 2.54 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 7.62 0.0 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
